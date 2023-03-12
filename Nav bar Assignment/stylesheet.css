@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+#wrap {
+    width: 100%;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+	height: 0px;
+  }
+ 
+.dropdown {
+
+	margin: 35PX;
+	/* padding: 18 px 0; */
+	border: 2PX solid rgb(82, 78, 78);
+	border-radius: 5px;
+	list-style: none;
+	width: 100px;
+	/* text-align: auto; */
+	background-color: #201166;
+	
+}
+
+
+.dropdown li {
+	position: relative;
+	line-height: 40px;
+	text-align: center;
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li a {
+	color: #ffffff;
+	border-radius: 8px;
+	border-color:2px solid #e9e6e6;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+.dropdown li ul {
+	position: absolute;
+	top: 100%;
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	display: none;
+	border-radius: 8px;
+	border-color:2px solid #333;
+	border: 2px solid rgb(5, 15, 61);
+	line-height: normal;
+	background-color: #bbbbbb;
+	border-block-color: rgb(112, 106, 106);
+}
+
+.dropdown li ul li a {
+	text-align: left;
+	color: #190030;
+	font-size: 14px;
+	padding: 20px;
+	display: block;
+	white-space: nowrap;
+}
+
+.dropdown li ul li a:hover {
+	background-color: #ffffff;
+	border:10 px solid #ffffff;
+	color: #ffffff;
+}
+
+.dropdown li ul li ul {
+	left: 100%;
+	top: 0;
+	border: 2px solid rgb(29, 5, 75) ;
+}
+
+ul li:hover>a {
+	background-color: #f1f1f1 ;
+	color: #1e0250 !important;
+}
+
+ul li:hover>ul {
+	display: block;
+	
+}
+ul.dropdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 17px;
+	float: left;
+  }
+  .text{
+	WIDTH: 30%;
+	margin-top: -25%;
+	margin-left: 15%;
+	color: rgb(167, 64, 64);
+	font-size:35px ;}
+	.row1 {
+		height:350px;
+		background-color:rgb(14, 13, 107);
+		 }
+		
+		/* webpage */
+		.main {
+			max-width: 1000px;
+			margin: auto;
+			color: #0d051d;
+		  }
+		  
+		  h1 {
+			font-size: 50px;
+			word-break: break-all;
+		  }
+		  
+		  .row {
+			margin: 8px -16px;
+		  }
+		  
+		  /* Add padding BETWEEN each column */
+		  .row,
+		  .row > .column {
+			padding: 8px;
+		  }
+		  
+		  /* Create four equal columns that floats next to each other */
+		  .column {
+			float: left;
+			width: 25%;
+		  }
+		  
+		  /* Clear floats after rows */ 
+		  .row:after {
+			content: "";
+			display: table;
+			clear: both;
+		  }
+		  
+		  /* Content */
+		  .content {
+			background-color: rgb(30, 7, 94);
+			padding: 9px;
+			color: white;
+			width: 100%;
+		  }
+		  .myDiv {
+ 
+			background-color: rgb(16, 17, 75);    
+			text-align: center;
+			color: white;
+			margin-top: 2%;
+			height: 100%;
+		  }
+		  /* footer */
+		  footer { 
+			font-size: 80%; 
+			padding: 7px 0px 0px 20px;
+			height: 27px;
+		   background-color: rgb(117, 113, 113);
+			color: rgb(0, 0, 0);}
+		  
